@@ -1,0 +1,13 @@
+db.activities.find()
+db.activities.find({})
+db.activities.remove({})
+db.activities.find({})
+{ "_id" : "JaMSF88t8o5tMC8GM", "activity" : "Woke Up", "com" : "", "createdAt" : ISODate("2018-12-29T21:38:30.104Z"), "userName" : "Isabel" }
+{ "_id" : "WwiiAZMXqEMrB2WNy", "activity" : "Settled, With Feed", "com" : "", "createdAt" : ISODate("2018-12-29T21:43:49.723Z"), "userName" : "Isabel" }
+db.activities.find({})
+db.activities.insert({ "_id" : "JaMSF88t8o5tMC8GM", "activity" : "Woke Up", "com" : "", "createdAt" : ISODate("2018-12-29T21:38:30.104Z"), "userName" : "Isabel" } { "_id" : "WwiiAZMXqEMrB2WNy", "activity" : "Settled, With Feed", "com" : "", "createdAt" : ISODate("2018-12-29T21:43:49.723Z"), "userName" : "Isabel" })
+db.activities.find({})
+db.activities.insert({ "_id" : "JaMSF88t8o5tMC8GM", "activity" : "Woke Up", "com" : "", "createdAt" : ISODate("2018-12-29T21:38:30.104Z"), "userName" : "Isabel" }, { "_id" : "WwiiAZMXqEMrB2WNy", "activity" : "Settled, With Feed", "com" : "", "createdAt" : ISODate("2018-12-29T21:43:49.723Z"), "userName" : "Isabel" })
+db.activities.find({})
+db.activities.insert({ "_id" : "WwiiAZMXqEMrB2WNy", "activity" : "Settled, With Feed", "com" : "", "createdAt" : ISODate("2018-12-29T21:43:49.723Z"), "userName" : "Isabel"})
+db.activities.find({})
