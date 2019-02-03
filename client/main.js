@@ -112,7 +112,7 @@ const players = Activities.find({}, {sort: {createdAt:-1}, limit:50}).fetch();
 
       <form onSubmit={handleSubmit} className="form">
         <input type="text" className="textBox" name="playerName" placeholder="Comment"/>
-	<br></br><input type="time" name="time" className="timePicker"/> Enter Time. Sleep So Far:
+	<br></br><input type="time" name="time" className="timePicker"/> Enter Time.
         <br></br><button className="button button-colorGreen" onClick={() => Activities.insert({activity: 'Settled, No Feed', com: '', createdAt: new Date(), userName: 'Isabel'})}>
           Settled - NO Feed</button>
         <button className="button button-colorAmber" onClick={() => Activities.insert({activity: 'Settled, With Feed', com: '', createdAt: new Date(), userName: 'Isabel'})}>
